@@ -1,0 +1,234 @@
+/*
+Style sheet for Brian Loughnane's resume
+Written by Brian Loughnane, 2014
+*/
+
+
+
+/*
+================
+Grid
+================
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.container {
+	width: 730px;
+	margin: 0 auto;
+}
+
+/*
+================
+Style
+================
+*/
+
+body {
+	/*font-family: Garamond;*/
+	background: #e4e7e8;
+	color: #2d4d60;
+	font-family: Arial, Helvetica, Serif;
+	margin: 0px;
+}
+
+h1 {
+	margin-bottom: 2px;
+}
+
+h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: inherit;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;
+}
+
+p {
+	margin-top: 0px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+section {
+	padding: 10px;
+}
+
+article {
+	padding: 50px 0px;
+}
+
+header, footer {
+	font-weight: 700;
+}
+
+/*
+================
+Sections
+================
+*/
+
+header {
+	border-bottom: 1px solid #2D4D60;
+	background: #c2d2ca;
+	position: fixed;
+	width: 101%;
+	min-width: 1008px;
+	margin-left: -20px; 
+	margin-top: -20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	-webkit-transform: translateZ(0);
+}
+
+header h2 {
+	display: inline;
+	border-bottom: none;
+}
+
+#contact-links {
+	margin-left: 30px;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+header nav a {
+	padding: 20px 10px;
+	margin: -20px 8px 0px 8px;
+	width: 105px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+#purpose {
+	padding-top: 90px;
+}
+
+#languages, #hobbies {
+	float:left;
+	clear: left;
+	width: 50%;
+}
+
+#programs, #interests {
+	float: right;
+	clear: right;
+	width: 50%;
+}
+
+#references {
+	border-top: 1px solid #2d4d60;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+footer.blue {
+	background: #C2D2CA;
+	border-top: 1px solid #2D4D60;
+	padding: 50px 0px;
+	text-align: center;
+	width: 100%;
+	min-width: 1008px;
+	font-size: 1.5em;
+}
+
+footer img {
+	display: inline-block;
+	width: 200px;
+	border-radius: 100%;
+	border: 1px solid red;
+}
+
+footer p {
+	margin: 30px 0px 0px 0px;
+}
+
+/*
+==================
+Color Pallette
+==================
+*/
+
+.green, a.green {
+	background: transparent;
+	color: #2E6A4C;
+	border: 2px solid #2E6A4C;
+}
+
+.green:hover {
+	background: #6C9B83;
+	color: #C2D2CA;
+	border: 2px solid transparent;
+}
+
+.green-font {
+	color: #2E6A4C;
+}
+
+.blue, a.blue {
+	background: transparent;
+	color: #2D4D60;
+	border: 2px solid #2D4D60;
+}
+ 
+.blue:hover, a.blue:hover {
+	background: #2D4D60;
+	color: #BAC3C8;
+	border: 2px solid #2D4D60;
+}
+
+.blue-font {
+	color: #2D4D60;
+}
+
+.tan, a.tan {
+	background: transparent;
+	color: #977142;
+	border: 2px solid #977142;
+}
+
+.tan:hover, a.tan:hover {
+	background: #977142;
+	color: #FFF6EC;
+	border: 2px solid #977142;
+}
+
+.tan-font {
+	color: #977142;
+}
+
+.red, a.red {
+	background: transparent;
+	color: #975742;
+	border: 2px solid #975742;
+}
+
+.red:hover, a.red:hover {
+	background: #975742;
+	color: #FFF0EC;
+	border: 2px solid #975742;
+}
+
+.red-font {
+	color: #975742;
+}
