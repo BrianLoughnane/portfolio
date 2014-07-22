@@ -242,6 +242,7 @@ blockquote, #featured-scroll div {
 	color: #977142;
 	overflow: hidden;
 	min-width: 500px;
+	min-height: 500px;
 }
 
 #featured-scroll div#about {
@@ -254,13 +255,7 @@ blockquote, #featured-scroll div {
 	margin-right: 210px;
 }
 
-#bq-2 {
-	position: absolute;
-	bottom: 127px;
-	width: 100%;
-	background: #dcaa9a;
-	color: #fff0ec;
-}
+
 
 /*
 =============================
@@ -269,17 +264,24 @@ Footer
 */
 
 footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	overflow: hidden;
 	width: 100%;
 	text-align:center;
-	padding: 17px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
 	background: #C2D2CA;
 	color: #2E6A4C;
 }
 
-footer div {
+footer #bq-2 {
+	width: 100%;
+	background: #dcaa9a;
+	color: #fff0ec;
+	margin-bottom: 17px;
+}
+
+footer a div {
 	display: inline-block;
 	width: 110px;
 	height: 100px;
