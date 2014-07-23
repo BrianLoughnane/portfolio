@@ -244,6 +244,8 @@ footer {
 	margin-left: -20px;
 	min-width: 1008px;
 	font-size: 1.5em;
+	position: relative;
+	top: 10px;
 }
 
 footer img {
