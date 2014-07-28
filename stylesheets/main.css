@@ -200,6 +200,7 @@ General Style
 */
 
 body {
+	font: 700 18px/28px Arial, Helvetica, serif;
 	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
 	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
 	background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
@@ -213,18 +214,17 @@ body {
 	min-width: 900px;
 }
 
-header.container {
-	padding: 10px 0px 18px 0px;
-}
-
 a {
 	text-decoration: none;
 }
 
-a:visited {
-	text-decoration: none;
+h1 {
+	margin: 0px;
 }
 
+p {
+	margin: 20px 0px 0px 0px;
+}
 
 /*
 =============================
@@ -232,21 +232,21 @@ Header
 =============================
 */
 header {
-	/*padding: 10px 0px 18px 0px;*/
-	overflow: hidden;
-	background: #c2d2ca;
-	color: #c2d2ca;
+	padding: 10px 0px 18px 0px;
+	/*overflow: hidden;*/
+	/*background: #c2d2ca;
+	color: #c2d2ca;*/
 }
 
 header img {
-	display: inline-block;
+	/*display: inline-block;*/
 	height: 180px;
 	border-radius: 100%;
 	border: 2px solid #975742;
 	margin-top: 10px;
 }
 
-header img#red {
+/*header img#red {
 	z-index: 0;
 }
 
@@ -258,7 +258,7 @@ header img#bnw {
 	border-radius: 100%;
 	border: 2px solid #975742;
 	margin-top: 10px;
-}
+}*/
 
 header nav {
 	display: inline-block;
@@ -271,13 +271,13 @@ header nav a {
 	padding: 35px 0px;
 	margin-left: 50px;
 	width: 110px;
-	text-align: center;
+	/*text-align: center;
 	box-sizing: border-box;
 	box-sizing: -webkit-border-box;
 	box-sizing: -moz-border-box;
 	box-sizing: -ms-border-box;
-	box-sizing: -o-border-box;
-	font-weight: 700;
+	box-sizing: -o-border-box;*/
+	/*font-weight: 700;*/
 }
 
 /*
@@ -286,19 +286,19 @@ Main
 =============================
 */
 
-#main {
+/*#main {
 	clear:both;
-}
+}*/
+
+/*blockquote {
+	background: transparent;
+	/*overflow: none;
+}*/
 
 blockquote {
-	background: transparent;
-	overflow: none;
-}
-
-blockquote, #featured-scroll div {
-	margin: 14px 270px;
+	/*margin: 14px 270px;*/
 	text-align: center;
-	font: 700 18px/28px Arial, Helvetica, serif;
+	/*font: 700 18px/28px Arial, Helvetica, serif;*/
 }
 
 #bq {
@@ -314,16 +314,17 @@ blockquote, #featured-scroll div {
 /*	min-height: 500px;*/
 }
 
-#featured-scroll div#about {
+#about {
 	text-align: center;
-	font: 700 18px/28px Arial, Helvetica, serif;
+	/*font: 700 18px/28px Arial, Helvetica, serif;*/
 	background: transparent;
 	max-width: 900px;
-	margin: 60px auto;
+	margin: 0px auto;
+	padding: 30px 0px;
 }
 
-#featured-scroll div#about h1 {
-	margin-right: 210px;
+#about h1 {
+	margin-right: 390px;
 }
 
 
