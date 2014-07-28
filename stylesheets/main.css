@@ -200,7 +200,12 @@ General Style
 */
 
 body {
-	background-color: #ffecd4;
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #C2D2CA), color-stop(1, #96B4A5));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #C2D2CA 0%, #96B4A5 100%);
 }
 
 .container {
@@ -210,7 +215,6 @@ body {
 
 header.container {
 	padding: 10px 0px 18px 0px;
-
 }
 
 a {
@@ -228,6 +232,7 @@ Header
 =============================
 */
 header {
+	/*padding: 10px 0px 18px 0px;*/
 	overflow: hidden;
 	background: #c2d2ca;
 	color: #c2d2ca;
@@ -286,7 +291,6 @@ Main
 }
 
 blockquote {
-	height: 30px;
 	background: transparent;
 	overflow: none;
 }
@@ -307,14 +311,15 @@ blockquote, #featured-scroll div {
 	color: #977142;
 	overflow: hidden;
 	min-width: 500px;
-	min-height: 500px;
+/*	min-height: 500px;*/
 }
 
 #featured-scroll div#about {
-	margin: 60px 270px;
 	text-align: center;
 	font: 700 18px/28px Arial, Helvetica, serif;
 	background: transparent;
+	max-width: 900px;
+	margin: 60px auto;
 }
 
 #featured-scroll div#about h1 {
@@ -329,19 +334,7 @@ Footer
 =============================
 */
 
-/*@font-face {
-  font-family: 'FontAwesome';
-  src: url('your/path/fontawesome-webfont.eot?v=3.0.1');
-  src: url('your/path/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
-    url('your/path/fontawesome-webfont.woff?v=3.0.1') format('woff'),
-    url('your/path/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}*/
-
 footer {
-	position: fixed;
-	bottom: 0;
 	overflow: hidden;
 	width: 100%;
 	text-align:center;
@@ -366,13 +359,21 @@ footer a div {
 	border-radius: 100%;
 }
 
-footer img {
-	width: 50px;
-	margin-top: 25px;
+footer a div:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
 }
 
-footer a div i.fa {
-	display: inline-block;
-	font-family: FontAwesome;
-	color: black;
+footer img {
+	width: 50px;
+	margin-top: 28px;
+}
+
+.fa {
+	font-size: 40px;
+	margin-top: 26px;
 }
