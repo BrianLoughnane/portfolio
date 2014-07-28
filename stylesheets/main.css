@@ -56,30 +56,39 @@ Root Color: #6c9b83;
 	background:;
 	color:;
 	border:;
-}
+}*/
 
-*/
+
 
 /*
 =
-Color Pallette v2
+Color Pallette
 =
 */
 
 .green, a.green {
-	background: #C2D2CA;
+	background: transparent;
 	color: #2E6A4C;
 	border: 2px solid #2E6A4C;
 }
 
 .green:hover {
-	background: #6C9B83;
+	background: #2E6A4C;
 	color: #C2D2CA;
-	border: 2px solid transparent;
+}
+
+header a.green:hover {
+	background: #2E6A4C;
+	color: #C2D2CA;
+	-webkit-transition: background .5s ease 0s, color .5s ease 0s;
+	-moz-transition: background .5s ease 0s, color .5s ease 0s;
+	-o-transition: background .5s ease 0s, color .5s ease 0s;
+	-ms-transition: background .5s ease 0s, color .5s ease 0s;
+	transition: background .5s ease 0s, color .5s ease 0s;
 }
 
 .blue, a.blue {
-	background: #C2D2CA;;
+	background: transparent;
 	color: #2D4D60;
 	border: 2px solid #2D4D60;
 }
@@ -87,12 +96,20 @@ Color Pallette v2
 .blue:hover, a.blue:hover {
 	background: #2D4D60;
 	color: #BAC3C8;
-	border: 2px solid #2D4D60;
+}
+
+header a.blue:hover {
+	background: #2D4D60;
+	color: #BAC3C8;
+	-webkit-transition: background .5s ease 0s, color .5s ease 0s;
+	-moz-transition: background .5s ease 0s, color .5s ease 0s;
+	-o-transition: background .5s ease 0s, color .5s ease 0s;
+	-ms-transition: background .5s ease 0s, color .5s ease 0s;
+	transition: background .5s ease 0s, color .5s ease 0s;
 }
 
 .tan, a.tan {
-	background: #C2D2CA;
-	/*color: #FFF6EC;*/
+	background: transparent;
 	color: #977142;
 	border: 2px solid #977142;
 }
@@ -100,11 +117,20 @@ Color Pallette v2
 .tan:hover, a.tan:hover {
 	background: #977142;
 	color: #FFF6EC;
-	border: 2px solid #977142;
+}
+
+header a.tan:hover {
+	background: #977142;
+	color: #FFF6EC;
+	-webkit-transition: background .5s ease 0s, color .5s ease 0s;
+	-moz-transition: background .5s ease 0s, color .5s ease 0s;
+	-o-transition: background .5s ease 0s, color .5s ease 0s;
+	-ms-transition: background .5s ease 0s, color .5s ease 0s;
+	transition: background .5s ease 0s, color .5s ease 0s;
 }
 
 .red, a.red {
-	background: #C2D2CA;
+	background: transparent;
 	color: #975742;
 	border: 2px solid #975742;
 }
@@ -112,7 +138,58 @@ Color Pallette v2
 .red:hover, a.red:hover {
 	background: #975742;
 	color: #FFF0EC;
-	border: 2px solid #975742;
+}
+
+header a.red:hover {
+	background: #975742;
+	color: #FFF0EC;
+	-webkit-transition: background .5s ease 0s, color .5s ease 0s;
+	-moz-transition: background .5s ease 0s, color .5s ease 0s;
+	-o-transition: background .5s ease 0s, color .5s ease 0s;
+	-ms-transition: background .5s ease 0s, color .5s ease 0s;
+	transition: background .5s ease 0s, color .5s ease 0s;
+}
+
+/*
+=============================
+Background Gradients
+=============================
+*/
+
+.green-lg {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #C2D2CA), color-stop(1, #96B4A5));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #C2D2CA 0%, #96B4A5 100%);
+}
+
+.tan-lg {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFF6EC 0%, #FFECD4 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFF6EC 0%, #FFECD4 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFF6EC 0%, #FFECD4 100%); 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFF6EC), color-stop(1, #FFECD4));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFF6EC 0%, #FFECD4 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #FFF6EC 0%, #FFECD4 100%);
+}
+
+.blue-lg {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #BAC3C8), color-stop(1, #8A9AA4));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #BAC3C8 0%, #8A9AA4 100%);
+}
+
+.red-lg {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFDED4 0%, #DCAA9A 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFDED4 0%, #DCAA9A 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFDED4 0%, #DCAA9A 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFDED4), color-stop(1, #DCAA9A));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFDED4 0%, #DCAA9A 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #FFDED4 0%, #DCAA9A 100%);
 }
 
 /*
@@ -136,7 +213,13 @@ General Style
 */
 
 body {
-	background-color: #ffecd4;
+	font: 700 18px/28px Arial, Helvetica, serif;
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #C2D2CA), color-stop(1, #96B4A5));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #C2D2CA 0%, #96B4A5 100%);
 }
 
 .container {
@@ -144,19 +227,17 @@ body {
 	min-width: 900px;
 }
 
-header.container {
-	padding: 10px 0px 18px 0px;
-
-}
-
 a {
 	text-decoration: none;
 }
 
-a:visited {
-	text-decoration: none;
+h1 {
+	margin: 0px;
 }
 
+p {
+	margin: 20px 0px 0px 0px;
+}
 
 /*
 =============================
@@ -164,31 +245,24 @@ Header
 =============================
 */
 header {
-	overflow: hidden;
-	background: #c2d2ca;
-	color: #c2d2ca;
+	padding: 10px 0px 18px 0px;
 }
 
 header img {
-	display: inline-block;
 	height: 180px;
 	border-radius: 100%;
 	border: 2px solid #975742;
 	margin-top: 10px;
 }
 
-header img#red {
-	z-index: 0;
-}
-
-header img#bnw {
-	position: absolute;
-	z-index: -1;
-	display: inline-block;
-	height: 180px;
-	border-radius: 100%;
-	border: 2px solid #975742;
-	margin-top: 10px;
+header img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(1440deg);
+	transition-duration: 10s;
+	transition-delay: 3s;
 }
 
 header nav {
@@ -202,13 +276,6 @@ header nav a {
 	padding: 35px 0px;
 	margin-left: 50px;
 	width: 110px;
-	text-align: center;
-	box-sizing: border-box;
-	box-sizing: -webkit-border-box;
-	box-sizing: -moz-border-box;
-	box-sizing: -ms-border-box;
-	box-sizing: -o-border-box;
-	font-weight: 700;
 }
 
 /*
@@ -217,45 +284,57 @@ Main
 =============================
 */
 
-#main {
-	clear:both;
-}
-
 blockquote {
-	height: 30px;
-}
-
-blockquote, #featured-scroll div {
-	margin: 14px 270px;
 	text-align: center;
-	font: 700 18px/28px Arial, Helvetica, serif;
 }
 
-#bq {
-	background: #BAC3C8;
+/*#bq {
 	color: #647d8c;
+	border: 2px solid #2D4D60;
+}*/
+
+section>div:first-child {
+	color: #647d8c;
+	border: 2px solid #2D4D60;
 }
 
-#featured-scroll {
+/*#featured-scroll {
 	border: 0;
-	background: inherit;
 	color: #977142;
 	overflow: hidden;
 	min-width: 500px;
-	min-height: 500px;
+}*/
+
+section>div:nth-child(2) {
+	border: 0;
+	color: #977142;
+	overflow: hidden;
+	min-width: 500px;
 }
 
-#featured-scroll div#about {
-	margin: 60px 270px;
+/*#about {
 	text-align: center;
-	font: 700 18px/28px Arial, Helvetica, serif;
+	background: transparent;
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 30px 0px;
+}*/
+
+section div div {
+	text-align: center;
+	background: transparent;
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 30px 0px;
 }
 
-#featured-scroll div#about h1 {
-	margin-right: 210px;
+/*#about h1 {
+	margin-right: 390px;
+}*/
+
+section div div h1 {
+	margin-right: 390px;
 }
-
-
 
 /*
 =============================
@@ -263,22 +342,18 @@ Footer
 =============================
 */
 
-footer {
-	position: fixed;
-	bottom: 0;
-	overflow: hidden;
+/*#bq-2 {
 	width: 100%;
-	text-align:center;
-	padding: 0px 0px 10px 0px;
-	background: #C2D2CA;
-	color: #2E6A4C;
-}
-
-footer #bq-2 {
-	width: 100%;
-	background: #dcaa9a;
-	color: #fff0ec;
+	color: #975742;
 	margin-bottom: 17px;
+	border: 2px solid #975742;
+}*/
+
+footer>div {
+	width: 100%;
+	color: #975742;
+	margin-bottom: 17px;
+	border: 2px solid #975742;
 }
 
 footer a div {
@@ -286,17 +361,19 @@ footer a div {
 	width: 110px;
 	height: 100px;
 	margin: 0px 28px;
-	border: 2px solid #6C9B83;
 	border-radius: 100%;
 }
 
-footer img {
-	width: 50px;
-	margin-top: 25px;
+footer a div:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	transition-duration: 0.5s;
 }
 
-footer a div i.fa {
-display: inline-block;
-font-family: FontAwesome;
-color: black;
+.fa {
+	font-size: 40px;
+	margin-top: 26px;
 }

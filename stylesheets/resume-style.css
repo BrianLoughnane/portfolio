@@ -3,166 +3,6 @@ Style sheet for Brian Loughnane's resume
 Written by Brian Loughnane, 2014
 */
 
-
-
-/*
-================
-Grid
-================
-*/
-
-*,
-*:before,
-*:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-}
-
-.container {
-	width: 730px;
-	margin: 0 auto;
-}
-
-/*
-================
-Style
-================
-*/
-
-body {
-	/*font-family: Garamond;*/
-	background: #e4e7e8;
-	color: #2d4d60;
-	font-family: Arial, Helvetica, Serif;
-	margin: 0px;
-}
-
-h1 {
-	margin-bottom: 2px;
-}
-
-h2 {
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: inherit;
-	margin-bottom: 5px;
-}
-
-a {
-	text-decoration: none;
-	font-weight: bold;
-	color: inherit;
-}
-
-p {
-	margin-top: 0px;
-}
-
-ul {
-	padding-left: 20px;
-}
-
-section {
-	padding: 10px;
-}
-
-article {
-	padding: 50px 0px;
-}
-
-header, footer {
-	font-weight: 700;
-}
-
-/*
-================
-Sections
-================
-*/
-
-header {
-	border-bottom: 1px solid #2D4D60;
-	background: #c2d2ca;
-	position: fixed;
-	width: 101%;
-	min-width: 1008px;
-	margin-left: -20px; 
-	margin-top: -20px;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	-webkit-transform: translateZ(0);
-}
-
-header h2 {
-	display: inline;
-	border-bottom: none;
-}
-
-#contact-links {
-	margin-left: 30px;
-}
-
-header nav {
-	display: inline-block;
-	float: right;
-	margin-top: 25px;
-	margin-right: 10px;
-}
-
-header nav a {
-	padding: 20px 10px;
-	margin: -20px 8px 0px 8px;
-	width: 105px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-}
-
-#purpose {
-	padding-top: 90px;
-}
-
-#languages, #hobbies {
-	float:left;
-	clear: left;
-	width: 50%;
-}
-
-#programs, #interests {
-	float: right;
-	clear: right;
-	width: 50%;
-}
-
-#references {
-	border-top: 1px solid #2d4d60;
-	text-align: center;
-	padding: 10px;
-	clear: both;
-}
-
-footer.blue {
-	background: #C2D2CA;
-	border-top: 1px solid #2D4D60;
-	padding: 50px 0px;
-	text-align: center;
-	width: 100%;
-	min-width: 1008px;
-	font-size: 1.5em;
-}
-
-footer img {
-	display: inline-block;
-	width: 200px;
-	border-radius: 100%;
-	border: 1px solid red;
-}
-
-footer p {
-	margin: 30px 0px 0px 0px;
-}
-
 /*
 ==================
 Color Pallette
@@ -191,7 +31,7 @@ Color Pallette
 	border: 2px solid #2D4D60;
 }
  
-.blue:hover, a.blue:hover {
+.blue:hover, a.blue:hover, footer:hover {
 	background: #2D4D60;
 	color: #BAC3C8;
 	border: 2px solid #2D4D60;
@@ -232,3 +72,190 @@ Color Pallette
 .red-font {
 	color: #975742;
 }
+
+/*
+================
+Grid
+================
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.container {
+	width: 730px;
+	margin: 0 auto;
+}
+
+/*
+================
+Style
+================
+*/
+
+body {
+	font-family: Garamond;
+	color: #2d4d60;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #BAC3C8), color-stop(1, #8A9AA4));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(ellipse farthest-corner at center, #BAC3C8 0%, #8A9AA4 100%);
+}
+
+header, footer {
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+
+	/* Opera */ 
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #C2D2CA), color-stop(1, #96B4A5));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(ellipse farthest-corner at center, #C2D2CA 0%, #96B4A5 100%);
+}
+
+h1 {
+	margin-bottom: 2px;
+}
+
+h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: inherit;
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;
+}
+
+p {
+	margin-top: 0px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+section {
+	padding: 10px;
+}
+
+/*
+================
+Header
+================
+*/
+
+header {
+	border-bottom: 1px solid #2D4D60;
+	position: fixed;
+	width: 100%;
+	min-width: 1008px;
+	margin-left: -20px; 
+	margin-top: -20px;
+	padding-top: 40px;
+	padding-bottom: 5px;
+	-webkit-transform: translateZ(0);
+}
+
+header h2 {
+	display: inline;
+	border-bottom: none;
+}
+
+#contact-links {
+	margin-left: 30px;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+	margin-right; 0;
+}
+
+header nav a {
+	padding: 10px;
+}
+
+/*
+=====================
+Article
+=====================
+*/
+
+#purpose {
+	padding-top: 90px;
+}
+
+#languages, #hobbies {
+	float:left;
+	clear: left;
+	width: 50%;
+}
+
+#programs, #interests {
+	float: right;
+	clear: right;
+	width: 50%;
+}
+
+#references {
+	border-top: 1px solid #2d4d60;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+footer {
+	border-top: 1px solid #2D4D60;
+	padding: 50px 0px;
+	text-align: center;
+	width: 104%;
+	margin-left: -20px;
+	min-width: 1008px;
+	font-size: 1.5em;
+	position: relative;
+	top: 10px;
+}
+
+footer img {
+	display: inline-block;
+	width: 200px;
+	border-radius: 100%;
+	border: 1px solid red;
+}
+
+footer p {
+	margin: 30px 0px 0px 0px;
+}
+
