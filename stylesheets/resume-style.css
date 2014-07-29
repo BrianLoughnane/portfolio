@@ -25,13 +25,13 @@ Color Pallette
 	color: #2E6A4C;
 }
 
-.blue/*, a.blue*/ {
+.blue, a.blue {
 	background: transparent;
 	color: #2D4D60;
 	border: 2px solid #2D4D60;
 }
  
-.blue:hover,/* a.blue:hover,*/ footer:hover {
+.blue:hover, a.blue:hover/*, footer:hover*/ {
 	background: #2D4D60;
 	color: #BAC3C8;
 	border: 2px solid #2D4D60;
@@ -87,10 +87,10 @@ Grid
 	-ms-box-sizing: border-box;
 }
 
-.container {
+/*.container {
 	width: 730px;
 	margin: 0 auto;
-}
+}*/
 
 /*
 ================
@@ -141,6 +141,11 @@ p {
 
 ul {
 	padding-left: 20px;
+}
+
+article {
+	width: 730px;
+	margin: 0 auto;
 }
 
 section, article div {
@@ -207,6 +212,7 @@ header nav a {
 	-ms-box-sizing: content-box;
 	-o-box-sizing: content-box;
 	box-sizing: content-box;
+	background: transparent;
 }
 
 header h2 {
@@ -340,6 +346,12 @@ min-width: 1008px;
 font-size: 24px;
 /* position: relative; */
 /* top: 10px; */
+}
+
+footer:hover {
+	background: #2D4D60;
+	color: #BAC3C8;
+	border: 2px solid #2D4D60;
 }
 
 footer img {
