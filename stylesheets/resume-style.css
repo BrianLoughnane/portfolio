@@ -9,6 +9,8 @@ Color Pallette
 ==================
 */
 
+
+
 .green/*, a.green*/ {
 	background: transparent;
 	color: #2E6A4C;
@@ -189,6 +191,11 @@ header>div {
 	margin: auto;
 }
 
+header h2 {
+	display: inline;
+	border-bottom: none;
+}
+
 header nav {
 	/*display: inline-block;*/
 	float: right;
@@ -215,9 +222,52 @@ header nav a {
 	background: transparent;
 }
 
-header h2 {
-	display: inline;
-	border-bottom: none;
+nav a:first-child {
+	/*background: transparent;*/
+	color: #977142;
+	border: 2px solid #977142;
+}
+
+nav a:first-child:hover {
+	background: #977142;
+	color: #FFF6EC;
+	border: 2px solid #977142;
+}
+
+nav a:nth-child(2) {
+	/*background: transparent;*/
+	color: #2D4D60;
+	border: 2px solid #2D4D60;
+}
+
+nav a:nth-child(2):hover {
+	background: #2D4D60;
+	color: #BAC3C8;
+	border: 2px solid #2D4D60;
+}
+
+nav a:nth-child(3) {
+	/*background: transparent;*/
+	color: #2E6A4C;
+	border: 2px solid #2E6A4C;
+}
+
+nav a:nth-child(3):hover {
+	background: #6C9B83;
+	color: #C2D2CA;
+	border: 2px solid transparent;
+}
+
+nav a:nth-child(4) {
+	/*background: transparent;*/
+	color: #975742;
+	border: 2px solid #975742;
+}
+
+nav a:nth-child(4):hover {
+	background: #975742;
+	color: #FFF0EC;
+	border: 2px solid #975742;
 }
 
 /*#contact-links {
