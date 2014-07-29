@@ -171,7 +171,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	min-width: 1008px;
+	min-width: 839px;
 	/* margin-left: -20px; */
 	/* margin-top: -20px; */
 	padding-top: 20px;
@@ -196,11 +196,17 @@ header nav {
 }*/
 
 header nav a {
-/* padding: 10px; */
-width: 103px;
-display: inline-block;
-text-align: center;
-padding: 8px 0px;
+	padding: 10px; 
+	/*min-width: 103px;*/
+	/*max-height: 60px;*/
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box;
 }
 
 header h2 {
@@ -226,17 +232,35 @@ Article
 	padding-top: 100px;
 }*/
 
-#purpose {
+#purposeAndGoals {
 	margin-top: 120px;
+	color: #2E6A4C;
 }
 
-#languages, #hobbies {
-	float:left;
+/*#experience {
+	color: #2D4D60;
+}*/
+
+/*#education*/
+
+article section:nth-child(2) div:nth-child(2) {
+	color: #975742;
+}
+
+/*interests*/
+
+article section:nth-child(3) div:first-child {
+	color: #977142;
+	float: right;
 	width: 49%;
 }
 
-#programs, #interests {
-	float: right;
+/*#hobbies {
+	color: #2D4D60;
+}*/
+
+article section:nth-child(3) div:nth-child(2) {
+	float:left;
 	width: 49%;
 }
 
@@ -244,6 +268,34 @@ Article
 	clear: both;
 	/*margin-bottom: 440px;*/
 }
+
+/*languages*/
+
+article section:nth-child(4) div:first-child {
+	color: #2E6A4C;
+	float:left;
+	width: 49%;
+}
+
+/*programs*/
+
+article section:nth-child(4) div:nth-child(2) {
+	color: #975742;
+	float: right;
+	width: 49%;
+}
+
+/*#languages, #hobbies {
+	float:left;
+	width: 49%;
+}*/
+
+/*#programs, article section:nth-child(3) div:first-child {
+	float: right;
+	width: 49%;
+}*/
+
+
 /*
 #languagesAndPrograms {
 	padding: 120px 0px 0px 0px;
@@ -262,11 +314,12 @@ Article
 }
 */
 
-
-#references {
+/*references*/
+body>section {
 	border-top: 1px solid #2d4d60;
 	text-align: center;
 	padding: 15px;
+	/*color: #2D4D60;*/
 	/*clear: both;*/
 }
 
@@ -274,6 +327,8 @@ Article
 	display: inline-block;
 	margin-top: 10px;
 }*/
+
+/*footer*/
 
 footer {
 border-top: 1px solid #2D4D60;
