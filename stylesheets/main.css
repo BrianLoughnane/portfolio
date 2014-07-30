@@ -270,19 +270,8 @@ footer {
 	border: none !important;
 }
 
-
-footer {
-	padding-bottom: 700px;
-}
-
-footer>div {
-	width: 100%;
-	color: #975742;
-	margin-bottom: 17px;
-	border: 2px solid #975742;
-
 footer>div:nth-child(2) {
-	padding: 60px;
+	padding: 60px 0px 700px 0px;
 	border: none !important;
 }
 
