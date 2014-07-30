@@ -6,61 +6,6 @@ Portfolio for Brian Loughnane
 
 
 /*
-============================
-Color Scheme
-Based on Palleton.com
-Root Color: #C2D2CA;
-
-And (darker pallette) using
-Root Color: #6c9b83;
-============================
-*/
-/*
-.green, a.green {
-	background: #6C9B83;
-	color: #c2d2ca;
-	border: 2px solid #2E6A4C;
-}
-
-.blue, a.blue {
-	background: #647E8C;
-	color: #BAC3C8;
-	border: 2px solid #2D4D60;
-}
-
-.blue:hover {
-	background:;
-	color:;
-	border:;
-}
-
-.tan, a.tan {
-	background: #DCBE9A;
-	color: #FFF6EC;
-	border: 2px solid #977142;
-}
-
-.tan:hover {
-	background:;
-	color:;
-	border:;
-}
-
-.red, a.red {
-	background: #DCAA9A;
-	color: #FFF0EC;
-	border: 2px solid #975742;
-}
-
-.red:hover {
-	background:;
-	color:;
-	border:;
-}*/
-
-
-
-/*
 =
 Color Pallette
 =
@@ -163,6 +108,8 @@ Background Gradients
 	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #C2D2CA), color-stop(1, #96B4A5));
 	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C2D2CA 0%, #96B4A5 100%);
 	background-image: radial-gradient(ellipse farthest-corner at center, #C2D2CA 0%, #96B4A5 100%);
+	color: #2E6A4C;
+	border: 2px solid #2E6A4C;
 }
 
 .tan-lg {
@@ -172,6 +119,8 @@ Background Gradients
 	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFF6EC), color-stop(1, #FFECD4));
 	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFF6EC 0%, #FFECD4 100%);
 	background-image: radial-gradient(ellipse farthest-corner at center, #FFF6EC 0%, #FFECD4 100%);
+	color: #977142;
+	border: 2px solid #977142;
 }
 
 .blue-lg {
@@ -181,6 +130,8 @@ Background Gradients
 	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #BAC3C8), color-stop(1, #8A9AA4));
 	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #BAC3C8 0%, #8A9AA4 100%);
 	background-image: radial-gradient(ellipse farthest-corner at center, #BAC3C8 0%, #8A9AA4 100%);
+	color: #2D4D60;
+	border: 2px solid #2D4D60;
 }
 
 .red-lg {
@@ -190,6 +141,8 @@ Background Gradients
 	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFDED4), color-stop(1, #DCAA9A));
 	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFDED4 0%, #DCAA9A 100%);
 	background-image: radial-gradient(ellipse farthest-corner at center, #FFDED4 0%, #DCAA9A 100%);
+	color: #975742;
+	border: 2px solid #975742;
 }
 
 /*
@@ -246,6 +199,7 @@ Header
 */
 header {
 	padding: 10px 0px 18px 0px;
+	border: none !important;
 }
 
 header img {
@@ -288,49 +242,19 @@ blockquote {
 	text-align: center;
 }
 
-/*#bq {
-	color: #647d8c;
-	border: 2px solid #2D4D60;
-}*/
-
-section>div:first-child {
-	color: #647d8c;
-	border: 2px solid #2D4D60;
-}
-
-/*#featured-scroll {
-	border: 0;
-	color: #977142;
-	overflow: hidden;
-	min-width: 500px;
-}*/
-
 section>div:nth-child(2) {
 	border: 0;
-	color: #977142;
+	/*color: #977142;*/
 	overflow: hidden;
 	min-width: 500px;
 }
-
-/*#about {
-	text-align: center;
-	background: transparent;
-	max-width: 900px;
-	margin: 20px auto;
-	padding: 30px 0px;
-}*/
 
 section div div {
 	text-align: center;
-	background: transparent;
 	max-width: 900px;
 	margin: 20px auto;
 	padding: 30px 0px;
 }
-
-/*#about h1 {
-	margin-right: 390px;
-}*/
 
 section div div h1 {
 	margin-right: 390px;
@@ -342,12 +266,10 @@ Footer
 =============================
 */
 
-/*#bq-2 {
-	width: 100%;
-	color: #975742;
-	margin-bottom: 17px;
-	border: 2px solid #975742;
-}*/
+footer {
+	border: none !important;
+}
+
 
 footer {
 	padding-bottom: 700px;
@@ -358,6 +280,10 @@ footer>div {
 	color: #975742;
 	margin-bottom: 17px;
 	border: 2px solid #975742;
+
+footer>div:nth-child(2) {
+	padding: 60px;
+	border: none !important;
 }
 
 footer a div {
